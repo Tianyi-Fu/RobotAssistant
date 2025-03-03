@@ -1,6 +1,7 @@
 # Robot Assistant Framework
+![Copy of Human command (2)](https://github.com/user-attachments/assets/6504cfd8-b37e-4aa4-b878-422c8dd5880f)
 
-This repository integrates a virtual home environment with a robot assistant that uses a Knowledge Graph (KG), Answer Set Programming (ASP) for goal reasoning, and an LLM (via OpenAI) for high-level command prediction. A Unity-based simulator is also included for virtual interaction.
+![framework_1](https://github.com/user-attachments/assets/4a52aef4-09c7-4a90-a7fd-488dd0aca204)
 
 ---
 
