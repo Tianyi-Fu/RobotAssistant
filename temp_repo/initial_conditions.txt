@@ -1,0 +1,113 @@
+holds(on(kitchencounter, chicken), 0).
+holds(switched_on(microwave), 0).
+holds(location(coffee, bedroom, coffeetable), 0).
+-holds(closed(bookshelf), 0).
+holds(on(dishbowl, bananas), 0).
+holds(location(peach, bedroom, coffeetable), 0).
+holds(furniture_location(amplifier, bedroom), 0).
+holds(on(kitchentable, poundcake), 0).
+-holds(has(agent1, milk), 0).
+-holds(has(user, mug), 0).
+-holds(has(agent1, cupcake), 0).
+holds(on(kitchentable, milk), 0).
+holds(furniture_location(desk, bedroom), 0).
+-holds(has(agent1, chicken), 0).
+-holds(has(agent1, mug), 0).
+-holds(has(agent1, cutlets), 0).
+holds(on(desk, cupcake), 0).
+-holds(has(user, coffee), 0).
+holds(has(user, folder), 0).
+-holds(has(agent1, magazine), 0).
+-holds(has(user, poundcake), 0).
+-holds(has(user, cereal), 0).
+-holds(has(user, bananas), 0).
+-holds(changed(microwave), 0).
+-holds(changed(bookshelf), 0).
+holds(on(coffeetable, apple), 0).
+holds(open(bookshelf), 0).
+holds(in(agent1, livingroom), 0).
+holds(location(apple, bedroom, coffeetable), 0).
+holds(on(coffeetable, peach), 0).
+holds(inside(bookshelf, notes), 0).
+-holds(open(fridge), 0).
+-holds(has(agent1, peach), 0).
+holds(location(waterglass, livingroom, desk_1), 0).
+-holds(heated(milk), 0).
+holds(location(cutlets, kitchen, microwave), 0).
+holds(location(cellphone, bedroom, coffeetable), 0).
+holds(inside(microwave, cutlets), 0).
+holds(on(coffeetable, alcohol), 0).
+-holds(has(agent1, juice), 0).
+holds(location(magazine, bedroom, amplifier), 0).
+holds(location(book, livingroom, bookshelf), 0).
+-holds(has(user, crackers), 0).
+holds(furniture_location(sofa, livingroom), 0).
+-holds(has(user, plate), 0).
+-holds(heated(cutlets), 0).
+holds(location(cupcake, bedroom, desk), 0).
+holds(furniture_location(tvstand, livingroom), 0).
+-holds(has(agent1, waterglass), 0).
+-holds(has(user, cutlets), 0).
+-holds(has(agent1, crackers), 0).
+-holds(has(user, alcohol), 0).
+holds(inside(bookshelf, book), 0).
+-holds(has(user, peach), 0).
+holds(location(mug, bedroom, coffeetable), 0).
+-holds(has(agent1, folder), 0).
+holds(furniture_location(fridge, kitchen), 0).
+-holds(has(user, book), 0).
+-holds(has(agent1, alcohol), 0).
+-holds(has(user, notes), 0).
+holds(location(plate, kitchen, kitchencounter), 0).
+holds(on(tvstand, crackers), 0).
+holds(location(poundcake, kitchen, kitchentable), 0).
+holds(user_location(livingroom), 0).
+holds(on(coffeetable, coffee), 0).
+-holds(has(user, juice), 0).
+holds(on(kitchencounter, plate), 0).
+holds(on(desk_1, waterglass), 0).
+-holds(has(user, cupcake), 0).
+-holds(has(user, magazine), 0).
+-holds(has(user, cellphone), 0).
+holds(furniture_location(coffeetable, bedroom), 0).
+holds(switched_on(tablelamp), 0).
+holds(furniture_location(dishbowl, livingroom), 0).
+holds(closed(fridge), 0).
+holds(location(bananas, livingroom, dishbowl), 0).
+-holds(has(agent1, cellphone), 0).
+holds(on(coffeetable, mug), 0).
+holds(on(kitchentable, cereal), 0).
+holds(furniture_location(kitchencounter, kitchen), 0).
+-holds(has(agent1, notes), 0).
+-holds(heated(chicken), 0).
+-holds(open(microwave), 0).
+-holds(has(user, milk), 0).
+-holds(has(user, chicken), 0).
+-holds(has(agent1, bananas), 0).
+holds(furniture_location(bookshelf, livingroom), 0).
+holds(furniture_location(microwave, kitchen), 0).
+holds(on(coffeetable, cellphone), 0).
+holds(location(juice, bedroom, desk), 0).
+holds(closed(microwave), 0).
+holds(on(desk, juice), 0).
+holds(location(cereal, kitchen, kitchentable), 0).
+holds(furniture_location(kitchentable, kitchen), 0).
+-holds(has(agent1, apple), 0).
+holds(location(alcohol, bedroom, coffeetable), 0).
+holds(on(amplifier, magazine), 0).
+-holds(has(user, waterglass), 0).
+-holds(has(agent1, cereal), 0).
+holds(furniture_location(tablelamp, livingroom), 0).
+-holds(has(user, apple), 0).
+-holds(switched_off(microwave), 0).
+holds(furniture_location(desk_1, livingroom), 0).
+-holds(has(agent1, book), 0).
+holds(location(chicken, kitchen, kitchencounter), 0).
+holds(location(milk, kitchen, kitchentable), 0).
+-holds(switched_off(tablelamp), 0).
+holds(location(crackers, livingroom, tvstand), 0).
+holds(location(notes, livingroom, bookshelf), 0).
+-holds(changed(fridge), 0).
+-holds(has(agent1, poundcake), 0).
+-holds(has(agent1, plate), 0).
+-holds(has(agent1, coffee), 0).

@@ -1,0 +1,1568 @@
+
+
+==================== 2025-02-26 03:16:18 ====================
+User-entered goal: has(user, folder)
+User-entered command: has(user, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: put bookshelf cupcake
+Predicted Command: open microwave  
+
+LLM Prediction Time (excluding user wait): 3.73 seconds
+Simulator Execution Time: 20.64 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,microwave),1), occurs(open(agent1,microwave),2), occurs(walk(agent1,livingroom),3), occurs(walktowards(agent1,bookshelf),4), occurs(grab(agent1,folder,bookshelf),5), occurs(walktowards(agent1,user),6), occurs(give(agent1,folder,user),7)}
+======================================================
+
+==================== 2025-02-26 03:17:50 ====================
+User-entered goal: open(fridge)
+User-entered command: open(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin bananas fridge
+
+LLM Prediction Time (excluding user wait): 2.21 seconds
+Simulator Execution Time: 13.98 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, bananas), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, bananas), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,dishbowl),0), occurs(grab(agent1,bananas,dishbowl),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,fridge),3), occurs(open(agent1,fridge),4), occurs(putin(agent1,bananas,fridge),5)}
+======================================================
+
+==================== 2025-02-26 03:19:09 ====================
+User-entered goal: closed(fridge)
+User-entered command: closed(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give user milk  
+Predicted Command: switchon microwave  
+
+LLM Prediction Time (excluding user wait): 3.82 seconds
+Simulator Execution Time: 4.33 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,fridge),0), occurs(close(agent1,fridge),1)}
+======================================================
+
+==================== 2025-02-26 03:21:40 ====================
+User-entered goal: has(user, book)
+User-entered command: has(user, book)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon lamp  
+
+LLM Prediction Time (excluding user wait): 2.69 seconds
+Simulator Execution Time: 20.80 seconds
+Alternative predicate calls: 2
+Alternative object calls: 1
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,tablelamp),1), occurs(switchon(agent1,tablelamp),2), occurs(walktowards(agent1,bookshelf),3), occurs(grab(agent1,book,bookshelf),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,book,user),6)}
+======================================================
+
+==================== 2025-02-26 03:26:47 ====================
+User-entered goal: on(desk, notes)
+User-entered command: on(desk, notes)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: grab cellphone  
+Predicted Command: grab bananas  
+
+LLM Prediction Time (excluding user wait): 4.81 seconds
+Simulator Execution Time: 31.20 seconds
+Alternative predicate calls: 2
+Alternative object calls: 1
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(has(user, bananas), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(has(user, bananas), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(put(agent1,notes,desk),11), occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,fridge),1), occurs(open(agent1,fridge),2), occurs(grab(agent1,bananas,fridge),3), occurs(walk(agent1,livingroom),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,bananas,user),6), occurs(walktowards(agent1,bookshelf),7), occurs(grab(agent1,notes,bookshelf),8), occurs(walk(agent1,bedroom),9), occurs(walktowards(agent1,desk),10)}
+======================================================
+
+==================== 2025-02-26 03:29:25 ====================
+User-entered goal: open(fridge)
+User-entered command: open(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin bananas fridge  
+
+LLM Prediction Time (excluding user wait): 2.32 seconds
+Simulator Execution Time: 18.63 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, bananas), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, bananas), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,dishbowl),1), occurs(grab(agent1,bananas,dishbowl),2), occurs(walk(agent1,kitchen),3), occurs(walktowards(agent1,fridge),4), occurs(open(agent1,fridge),5), occurs(putin(agent1,bananas,fridge),6)}
+======================================================
+
+==================== 2025-02-26 03:30:50 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave  
+
+LLM Prediction Time (excluding user wait): 2.65 seconds
+Simulator Execution Time: 0.68 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(microwave, cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(microwave, cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,kitchencounter),0), occurs(grab(agent1,cutlets,kitchencounter),1), occurs(walktowards(agent1,microwave),2), occurs(open(agent1,microwave),3), occurs(putin(agent1,cutlets,microwave),4)}
+======================================================
+
+==================== 2025-02-26 03:31:41 ====================
+User-entered goal: closed(microwave)
+User-entered command: closed(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: heat cutlets  
+Predicted Command: heat cutlets
+
+LLM Prediction Time (excluding user wait): 4.70 seconds
+Simulator Execution Time: 1.23 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(heated(cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(heated(cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(close(agent1,microwave),1), occurs(switchon(agent1,microwave),2)}
+======================================================
+
+==================== 2025-02-26 03:34:30 ====================
+User-entered goal: has(user, cutlets)
+User-entered command: has(user, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give cutlets
+Predicted Command: open microwave  
+
+LLM Prediction Time (excluding user wait): 4.56 seconds
+Simulator Execution Time: 1.05 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(switchoff(agent1,microwave),1), occurs(open(agent1,microwave),2), occurs(grab(agent1,cutlets,microwave),3), occurs(walk(agent1,livingroom),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,cutlets,user),6)}
+======================================================
+
+==================== 2025-02-26 03:36:02 ====================
+User-entered goal: inside(microwave, milk)
+User-entered command: inside(microwave, milk)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: heat milk  
+
+LLM Prediction Time (excluding user wait): 2.11 seconds
+Simulator Execution Time: 0.61 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(heated(milk), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(heated(milk), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchentable),1), occurs(grab(agent1,milk,kitchentable),2), occurs(walktowards(agent1,microwave),3), occurs(putin(agent1,milk,microwave),4), occurs(close(agent1,microwave),5), occurs(switchon(agent1,microwave),6)}
+======================================================
+
+==================== 2025-02-26 03:40:11 ====================
+User-entered goal: switched_on(tablelamp)
+User-entered command: turn on the table lamp
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place cake on the bookshelf  
+Predicted Command: give notes user  
+
+LLM Prediction Time (excluding user wait): 5.22 seconds
+Simulator Execution Time: 27.25 seconds
+Alternative predicate calls: 0
+Alternative object calls: 2
+KG Substitution Log:
+Furniture substitution: cake -> microwave (success)
+Item substitution: bookshelf -> book (success)
+
+Final ASP execution command: goal_2(I) :- holds(has(user, notes), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(has(user, notes), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,bookshelf),1), occurs(grab(agent1,notes,bookshelf),2), occurs(walktowards(agent1,user),3), occurs(give(agent1,notes,user),4), occurs(walktowards(agent1,tablelamp),5), occurs(switchon(agent1,tablelamp),6)}
+======================================================
+
+==================== 2025-02-26 03:43:24 ====================
+User-entered goal: on(desk, book)
+User-entered command: on(desk, book)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge
+Predicted Command: open microwave
+
+LLM Prediction Time (excluding user wait): 5.04 seconds
+Simulator Execution Time: 15.90 seconds
+Alternative predicate calls: 0
+Alternative object calls: 2
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,bookshelf),0), occurs(grab(agent1,book,bookshelf),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,microwave),3), occurs(open(agent1,microwave),4), occurs(walk(agent1,bedroom),5), occurs(walktowards(agent1,desk),6), occurs(put(agent1,book,desk),7)}
+======================================================
+
+==================== 2025-02-26 03:45:48 ====================
+User-entered goal: inside(microwave, cutlets)
+User-entered command: inside(microwave, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close microwave
+
+LLM Prediction Time (excluding user wait): 2.90 seconds
+Simulator Execution Time: 13.71 seconds
+Alternative predicate calls: 0
+Alternative object calls: 2
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(putin(agent1,cutlets,microwave),4), occurs(close(agent1,microwave),5)}
+======================================================
+
+==================== 2025-02-26 03:50:24 ====================
+User-entered goal: has(user, cutlets)
+User-entered command: has(user, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchoff tablelamp  
+Predicted Command: putin alcohol fridge  
+
+LLM Prediction Time (excluding user wait): 4.83 seconds
+Simulator Execution Time: 26.88 seconds
+Alternative predicate calls: 1
+Alternative object calls: 2
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, alcohol), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, alcohol), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(open(agent1,fridge),11), occurs(putin(agent1,alcohol,fridge),12), occurs(walktowards(agent1,microwave),0), occurs(open(agent1,microwave),1), occurs(grab(agent1,cutlets,microwave),2), occurs(walk(agent1,bedroom),3), occurs(walktowards(agent1,coffeetable),4), occurs(grab(agent1,alcohol,coffeetable),5), occurs(walk(agent1,livingroom),6), occurs(walktowards(agent1,user),7), occurs(give(agent1,cutlets,user),8), occurs(walk(agent1,kitchen),9), occurs(walktowards(agent1,fridge),10)}
+======================================================
+
+==================== 2025-02-26 03:54:35 ====================
+User-entered goal: has(user, alcohol)
+User-entered command: has(user, alcohol)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge   
+Predicted Command: switchoff tablelamp  
+Predicted Command: store magazine fridge  
+Predicted Command: switchoff tablelamp  
+
+LLM Prediction Time (excluding user wait): 8.58 seconds
+Simulator Execution Time: 0.00 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: 
+
+SPARC Solver Output:
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,coffeetable),0), occurs(grab(agent1,alcohol,coffeetable),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,user),3), occurs(give(agent1,alcohol,user),4)}
+======================================================
+
+==================== 2025-02-26 03:57:40 ====================
+User-entered goal: inside(bookshelf, poundcake)
+User-entered command: inside(bookshelf, poundcake)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge  
+
+LLM Prediction Time (excluding user wait): 1.94 seconds
+Simulator Execution Time: 27.53 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,fridge),1), occurs(open(agent1,fridge),2), occurs(walktowards(agent1,kitchentable),3), occurs(grab(agent1,poundcake,kitchentable),4), occurs(walk(agent1,livingroom),5), occurs(walktowards(agent1,bookshelf),6), occurs(putin(agent1,poundcake,bookshelf),7)}
+======================================================
+
+==================== 2025-02-26 03:59:33 ====================
+User-entered goal: inside(fridge, milk)
+User-entered command: inside(fridge, milk)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close fridge  
+
+LLM Prediction Time (excluding user wait): 2.83 seconds
+Simulator Execution Time: 13.32 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchentable),1), occurs(grab(agent1,milk,kitchentable),2), occurs(walktowards(agent1,fridge),3), occurs(putin(agent1,milk,fridge),4), occurs(close(agent1,fridge),5)}
+======================================================
+
+==================== 2025-02-26 04:07:00 ====================
+User-entered goal: has(user, milk)
+User-entered command: has(user, milk)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close fridge  
+Predicted Command: switchoff tablelamp  
+Predicted Command: switchon tablelamp  
+
+LLM Prediction Time (excluding user wait): 10.49 seconds
+Simulator Execution Time: 19.68 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,fridge),0), occurs(open(agent1,fridge),1), occurs(grab(agent1,milk,fridge),2), occurs(walk(agent1,livingroom),3), occurs(walktowards(agent1,user),4), occurs(give(agent1,milk,user),5), occurs(walktowards(agent1,tablelamp),6), occurs(switchon(agent1,tablelamp),7)}
+======================================================
+
+==================== 2025-02-26 04:09:49 ====================
+User-entered goal: has(user,milk)
+User-entered command: has(user,milk)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon tablelamp  
+Predicted Command: open microwave  
+
+LLM Prediction Time (excluding user wait): 4.78 seconds
+Simulator Execution Time: 6.82 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,microwave),1), occurs(open(agent1,microwave),2)}
+======================================================
+
+==================== 2025-02-26 04:11:37 ====================
+User-entered goal: inside(microwave, chicken)
+User-entered command: inside(microwave, chicken)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close microwave  
+Predicted Command: close microwave  
+
+LLM Prediction Time (excluding user wait): 6.57 seconds
+Simulator Execution Time: 14.76 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,kitchencounter),0), occurs(grab(agent1,chicken,kitchencounter),1), occurs(walktowards(agent1,microwave),2), occurs(putin(agent1,chicken,microwave),3), occurs(close(agent1,microwave),4)}
+======================================================
+
+==================== 2025-02-26 04:17:09 ====================
+User-entered goal: on(desk, chicken)
+User-entered command: on(desk, chicken)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open microwave  
+Predicted Command: give magazine  
+
+LLM Prediction Time (excluding user wait): 5.25 seconds
+Simulator Execution Time: 36.10 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(has(user, magazine), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(has(user, magazine), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,amplifier),0), occurs(grab(agent1,magazine,amplifier),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,kitchencounter),3), occurs(grab(agent1,chicken,kitchencounter),4), occurs(walk(agent1,bedroom),5), occurs(walktowards(agent1,desk),6), occurs(put(agent1,chicken,desk),7), occurs(walk(agent1,livingroom),8), occurs(walktowards(agent1,user),9), occurs(give(agent1,magazine,user),10)}
+======================================================
+
+==================== 2025-02-26 04:18:39 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave  
+
+LLM Prediction Time (excluding user wait): 2.65 seconds
+Simulator Execution Time: 11.67 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(microwave, cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(microwave, cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(open(agent1,microwave),4), occurs(putin(agent1,cutlets,microwave),5)}
+======================================================
+
+==================== 2025-02-26 04:21:13 ====================
+User-entered goal: closed(microwave)
+User-entered command: closed(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon lamp  
+Predicted Command: switchon microwave  
+Predicted Command: switchon microwave  
+
+LLM Prediction Time (excluding user wait): 11.16 seconds
+Simulator Execution Time: 0.00 seconds
+Alternative predicate calls: 4
+Alternative object calls: 1
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+Predicate substitution: turn_on -> switched_on (success)
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: 
+
+SPARC Solver Output:
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(close(agent1,microwave),1)}
+======================================================
+
+==================== 2025-02-26 04:23:50 ====================
+User-entered goal: on(tvstand, cutlets)
+User-entered command: on(tvstand, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon tablelamp
+
+LLM Prediction Time (excluding user wait): 3.60 seconds
+Simulator Execution Time: 3.43 seconds
+Alternative predicate calls: 5
+Alternative object calls: 1
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(grab(agent1,cutlets,microwave),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,tvstand),3), occurs(put(agent1,cutlets,tvstand),4), occurs(walktowards(agent1,tablelamp),5), occurs(switchon(agent1,tablelamp),6)}
+======================================================
+
+==================== 2025-02-26 04:25:58 ====================
+User-entered goal: has(user, cutlets)
+User-entered command: has(user, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon table lamp  
+
+LLM Prediction Time (excluding user wait): 2.62 seconds
+Simulator Execution Time: 30.04 seconds
+Alternative predicate calls: 6
+Alternative object calls: 2
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,tvstand),0), occurs(grab(agent1,cutlets,tvstand),1), occurs(walktowards(agent1,user),2), occurs(give(agent1,cutlets,user),3)}
+======================================================
+
+==================== 2025-02-26 04:32:12 ====================
+User-entered goal: inside(bookshelf, cellphone)
+User-entered command: inside(bookshelf, cellphone)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open microwave  
+Predicted Command: open fridge  
+
+LLM Prediction Time (excluding user wait): 6.99 seconds
+Simulator Execution Time: 17.10 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,coffeetable),0), occurs(grab(agent1,cellphone,coffeetable),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(putin(agent1,cellphone,bookshelf),4), occurs(walk(agent1,kitchen),5), occurs(walktowards(agent1,fridge),6), occurs(open(agent1,fridge),7)}
+======================================================
+
+
+==================== 2025-02-26 04:41:58 ====================
+User-entered goal: inside(fridge, cutlets)
+User-entered command: inside(fridge, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close fridge
+
+LLM Prediction Time (excluding user wait): 4.68 seconds
+Simulator Execution Time: 23.33 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,fridge),3), occurs(open(agent1,fridge),4), occurs(putin(agent1,cutlets,fridge),5), occurs(close(agent1,fridge),6)}
+======================================================
+
+==================== 2025-02-26 04:48:08 ====================
+User-entered goal: has(user, apple)
+User-entered command: has(user, apple)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open microwave  
+Predicted Command: open microwave  
+Predicted Command: put notes kitchentable  
+
+LLM Prediction Time (excluding user wait): 8.04 seconds
+Simulator Execution Time: 25.41 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(on(kitchentable, notes), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(on(kitchentable, notes), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,bedroom),0), occurs(walktowards(agent1,coffeetable),1), occurs(grab(agent1,apple,coffeetable),2), occurs(walk(agent1,livingroom),3), occurs(walktowards(agent1,bookshelf),4), occurs(grab(agent1,notes,bookshelf),5), occurs(walktowards(agent1,user),6), occurs(give(agent1,apple,user),7), occurs(walk(agent1,kitchen),8), occurs(walktowards(agent1,kitchentable),9), occurs(put(agent1,notes,kitchentable),10)}
+======================================================
+
+==================== 2025-02-26 04:51:48 ====================
+User-entered goal: on(tvstand, folder)
+User-entered command: on(tvstand, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: put magazine kitchentable  
+Predicted Command: open microwave
+
+LLM Prediction Time (excluding user wait): 5.25 seconds
+Simulator Execution Time: 15.77 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(open(agent1,microwave),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(grab(agent1,folder,bookshelf),4), occurs(walktowards(agent1,tvstand),5), occurs(put(agent1,folder,tvstand),6)}
+======================================================
+
+==================== 2025-02-26 04:58:50 ====================
+User-entered goal: open(fridge)
+User-entered command: open(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin bananas fridge  
+Predicted Command: grab cellphone  
+
+LLM Prediction Time (excluding user wait): 5.01 seconds
+Simulator Execution Time: 15.76 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(has(user, cellphone), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(has(user, cellphone), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,bedroom),0), occurs(walktowards(agent1,coffeetable),1), occurs(grab(agent1,cellphone,coffeetable),2), occurs(walk(agent1,livingroom),3), occurs(walktowards(agent1,user),4), occurs(give(agent1,cellphone,user),5), occurs(walk(agent1,kitchen),6), occurs(walktowards(agent1,fridge),7), occurs(open(agent1,fridge),8)}
+======================================================
+
+==================== 2025-02-26 05:08:12 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave
+
+LLM Prediction Time (excluding user wait): 3.66 seconds
+Simulator Execution Time: 19.13 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(microwave, cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(microwave, cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(open(agent1,microwave),4), occurs(putin(agent1,cutlets,microwave),5)}
+======================================================
+
+==================== 2025-02-26 05:11:46 ====================
+User-entered goal: closed(microwave)
+User-entered command: closed(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: heat cutlets  
+
+LLM Prediction Time (excluding user wait): 3.24 seconds
+Simulator Execution Time: 6.26 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(heated(cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(heated(cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(close(agent1,microwave),1), occurs(switchon(agent1,microwave),2)}
+======================================================
+
+==================== 2025-02-26 05:15:51 ====================
+User-entered goal: inside(bookshelf, cereal)
+User-entered command: inside(bookshelf, cereal)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge  
+
+LLM Prediction Time (excluding user wait): 2.11 seconds
+Simulator Execution Time: 14.38 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,fridge),0), occurs(open(agent1,fridge),1), occurs(walktowards(agent1,kitchentable),2), occurs(grab(agent1,cereal,kitchentable),3), occurs(walk(agent1,livingroom),4), occurs(walktowards(agent1,bookshelf),5), occurs(putin(agent1,cereal,bookshelf),6)}
+======================================================
+
+==================== 2025-02-26 05:19:25 ====================
+User-entered goal: open(fridge)
+User-entered command: open(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin bananas fridge  
+
+LLM Prediction Time (excluding user wait): 5.36 seconds
+Simulator Execution Time: 13.05 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, bananas), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, bananas), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,dishbowl),0), occurs(grab(agent1,bananas,dishbowl),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,fridge),3), occurs(putin(agent1,bananas,fridge),4)}
+======================================================
+
+==================== 2025-02-26 05:32:44 ====================
+User-entered goal: has(user, chicken)
+User-entered command: has(user, chicken)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close fridge  
+
+LLM Prediction Time (excluding user wait): 2.83 seconds
+Simulator Execution Time: 13.17 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,fridge),0), occurs(close(agent1,fridge),1), occurs(walktowards(agent1,kitchencounter),2), occurs(grab(agent1,chicken,kitchencounter),3), occurs(walk(agent1,livingroom),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,chicken,user),6)}
+======================================================
+
+==================== 2025-02-26 05:35:43 ====================
+User-entered goal: switched_on(tablelamp)
+User-entered command: turn on the  lamp
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give user book  
+Predicted Command: putin alcohol bookshelf  
+
+LLM Prediction Time (excluding user wait): 4.45 seconds
+Simulator Execution Time: 30.35 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(bookshelf, alcohol), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(bookshelf, alcohol), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,coffeetable),0), occurs(grab(agent1,alcohol,coffeetable),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(putin(agent1,alcohol,bookshelf),4), occurs(walktowards(agent1,tablelamp),5), occurs(switchon(agent1,tablelamp),6)}
+======================================================
+
+==================== 2025-02-26 06:02:24 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave
+Predicted Command: give user chicken  
+Predicted Command: putin chicken microwave  
+
+LLM Prediction Time (excluding user wait): 9.00 seconds
+Simulator Execution Time: 13.37 seconds
+Alternative predicate calls: 3
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(microwave, chicken), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(microwave, chicken), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,chicken,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(open(agent1,microwave),4), occurs(putin(agent1,chicken,microwave),5)}
+======================================================
+
+==================== 2025-02-26 06:04:35 ====================
+User-entered goal: closed(microwave)
+User-entered command: closed(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave
+Predicted Command: putin chicken microwave  
+Predicted Command: put cutlets microwave  
+Predicted Command: putin chicken microwave  
+
+LLM Prediction Time (excluding user wait): 11.29 seconds
+Simulator Execution Time: 0.00 seconds
+Alternative predicate calls: 7
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+Predicate substitution: put_inside -> inside (success)
+Predicate substitution: put_inside -> inside (success)
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: 
+
+SPARC Solver Output:
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(close(agent1,microwave),1)}
+======================================================
+
+==================== 2025-02-26 06:06:20 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave  
+Predicted Command: open fridge  
+
+LLM Prediction Time (excluding user wait): 5.27 seconds
+Simulator Execution Time: 3.70 seconds
+Alternative predicate calls: 8
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(open(fridge), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(fridge), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,fridge),0), occurs(open(agent1,fridge),1)}
+======================================================
+
+==================== 2025-02-26 06:08:16 ====================
+User-entered goal: inside(microwave, milk)
+User-entered command: inside(microwave, milk)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: heat milk
+
+LLM Prediction Time (excluding user wait): 2.33 seconds
+Simulator Execution Time: 14.91 seconds
+Alternative predicate calls: 8
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(heated(milk), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(heated(milk), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,kitchentable),0), occurs(grab(agent1,milk,kitchentable),1), occurs(walktowards(agent1,microwave),2), occurs(putin(agent1,milk,microwave),3), occurs(close(agent1,microwave),4), occurs(switchon(agent1,microwave),5)}
+======================================================
+
+==================== 2025-02-26 13:54:15 ====================
+User-entered goal: open(fridge)
+User-entered command: open(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin bananas fridge  
+Predicted Command: give user peach  
+Predicted Command: put_inside peach fridge  
+
+LLM Prediction Time (excluding user wait): 9.24 seconds
+Simulator Execution Time: 16.98 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, peach), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, peach), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,coffeetable),0), occurs(grab(agent1,peach,coffeetable),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,fridge),3), occurs(open(agent1,fridge),4), occurs(putin(agent1,peach,fridge),5)}
+======================================================
+
+==================== 2025-02-26 14:01:00 ====================
+User-entered goal: has(user, peach)
+User-entered command: has(user, peach)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give apple
+Predicted Command: putin apple fridge  
+
+LLM Prediction Time (excluding user wait): 4.65 seconds
+Simulator Execution Time: 0.51 seconds
+Alternative predicate calls: 3
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(fridge, apple), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(fridge, apple), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,bedroom),0), occurs(walktowards(agent1,coffeetable),1), occurs(grab(agent1,apple,coffeetable),2), occurs(walk(agent1,kitchen),3), occurs(walktowards(agent1,fridge),4), occurs(grab(agent1,peach,fridge),5), occurs(putin(agent1,apple,fridge),6), occurs(walk(agent1,livingroom),7), occurs(walktowards(agent1,user),8), occurs(give(agent1,peach,user),9)}
+======================================================
+
+==================== 2025-02-26 14:04:44 ====================
+User-entered goal: closed(fridge)
+User-entered command: closed(fridge)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon microwave  
+Predicted Command: put waterglass bookshelf  
+
+LLM Prediction Time (excluding user wait): 6.76 seconds
+Simulator Execution Time: 1.11 seconds
+Alternative predicate calls: 5
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(bookshelf, waterglass), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(bookshelf, waterglass), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,desk_1),0), occurs(grab(agent1,waterglass,desk_1),1), occurs(walktowards(agent1,bookshelf),2), occurs(putin(agent1,waterglass,bookshelf),3), occurs(walk(agent1,kitchen),4), occurs(walktowards(agent1,fridge),5), occurs(close(agent1,fridge),6)}
+======================================================
+
+==================== 2025-02-26 14:46:39 ====================
+User-entered goal: on(tvstand, folder)
+User-entered command: on(tvstand, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place water glass on table  
+Predicted Command: put magazine kitchentable  
+
+LLM Prediction Time (excluding user wait): 5.18 seconds
+Simulator Execution Time: 0.99 seconds
+Alternative predicate calls: 5
+Alternative object calls: 2
+KG Substitution Log:
+Furniture substitution: water_glass -> tablelamp (success)
+Item substitution: table -> apple (success)
+
+Final ASP execution command: goal_2(I) :- holds(on(kitchentable, magazine), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(on(kitchentable, magazine), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,bedroom),0), occurs(walktowards(agent1,amplifier),1), occurs(grab(agent1,magazine,amplifier),2), occurs(walk(agent1,kitchen),3), occurs(walktowards(agent1,kitchentable),4), occurs(put(agent1,magazine,kitchentable),5), occurs(walk(agent1,livingroom),6), occurs(walktowards(agent1,bookshelf),7), occurs(grab(agent1,folder,bookshelf),8), occurs(walktowards(agent1,tvstand),9), occurs(put(agent1,folder,tvstand),10)}
+======================================================
+
+==================== 2025-02-26 14:48:29 ====================
+User-entered goal: on(kitchentable, cereal)
+User-entered command: on(kitchentable, cereal)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give user folder  
+
+LLM Prediction Time (excluding user wait): 2.48 seconds
+Simulator Execution Time: 0.82 seconds
+Alternative predicate calls: 5
+Alternative object calls: 2
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(has(user, folder), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(has(user, folder), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,tvstand),1), occurs(grab(agent1,folder,tvstand),2), occurs(walktowards(agent1,user),3), occurs(give(agent1,folder,user),4)}
+======================================================
+
+==================== 2025-02-26 14:52:43 ====================
+User-entered goal: inside(bookshelf, cupcake)
+User-entered command: inside(bookshelf, cupcake)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge  
+Predicted Command: open microwave  
+
+LLM Prediction Time (excluding user wait): 4.05 seconds
+Simulator Execution Time: 25.78 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,desk),0), occurs(grab(agent1,cupcake,desk),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(putin(agent1,cupcake,bookshelf),4), occurs(walk(agent1,kitchen),5), occurs(walktowards(agent1,microwave),6), occurs(open(agent1,microwave),7)}
+======================================================
+
+==================== 2025-02-26 14:55:24 ====================
+User-entered goal: inside(microwave, cutlets)
+User-entered command: inside(microwave, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close microwave
+
+LLM Prediction Time (excluding user wait): 2.49 seconds
+Simulator Execution Time: 19.00 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(open(agent1,microwave),4), occurs(putin(agent1,cutlets,microwave),5), occurs(close(agent1,microwave),6)}
+======================================================
+
+==================== 2025-02-26 14:59:49 ====================
+User-entered goal: heated(cutlets)
+User-entered command: heat the cutlets
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place cutlets on tvstand  
+Predicted Command: on kitchentable notes
+
+LLM Prediction Time (excluding user wait): 9.02 seconds
+Simulator Execution Time: 17.35 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(on(kitchentable, notes), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(on(kitchentable, notes), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(switchon(agent1,microwave),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(grab(agent1,notes,bookshelf),4), occurs(walk(agent1,kitchen),5), occurs(walktowards(agent1,kitchentable),6), occurs(put(agent1,notes,kitchentable),7)}
+======================================================
+
+==================== 2025-02-26 15:03:07 ====================
+User-entered goal: has(user, notes)
+User-entered command: has(user, notes)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open microwave  
+Predicted Command: switchon lamp  
+
+LLM Prediction Time (excluding user wait): 5.82 seconds
+Simulator Execution Time: 13.64 seconds
+Alternative predicate calls: 1
+Alternative object calls: 1
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,kitchentable),0), occurs(grab(agent1,notes,kitchentable),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,user),3), occurs(give(agent1,notes,user),4), occurs(walktowards(agent1,tablelamp),5), occurs(switchon(agent1,tablelamp),6)}
+======================================================
+
+==================== 2025-02-26 15:05:47 ====================
+User-entered goal: has(user, book)
+User-entered command: has(user, book)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon lamp
+Predicted Command: switchoff lamp
+
+LLM Prediction Time (excluding user wait): 4.13 seconds
+Simulator Execution Time: 16.98 seconds
+Alternative predicate calls: 2
+Alternative object calls: 3
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+Object substitution: lamp -> tablelamp (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_off(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_off(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,bookshelf),0), occurs(grab(agent1,book,bookshelf),1), occurs(walktowards(agent1,user),2), occurs(give(agent1,book,user),3), occurs(walktowards(agent1,tablelamp),4), occurs(switchoff(agent1,tablelamp),5)}
+======================================================
+
+==================== 2025-02-26 19:11:23 ====================
+User-entered goal: inside(bookshelf, cupcake)
+User-entered command: inside(bookshelf, cupcake)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: open fridge  
+Predicted Command: open microwave
+
+LLM Prediction Time (excluding user wait): 5.49 seconds
+Simulator Execution Time: 29.12 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,desk),0), occurs(grab(agent1,cupcake,desk),1), occurs(walk(agent1,livingroom),2), occurs(walktowards(agent1,bookshelf),3), occurs(putin(agent1,cupcake,bookshelf),4), occurs(walk(agent1,kitchen),5), occurs(walktowards(agent1,microwave),6), occurs(open(agent1,microwave),7)}
+======================================================
+
+==================== 2025-02-26 19:13:06 ====================
+User-entered goal: inside(microwave, cutlets)
+User-entered command: inside(microwave, cutlets)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: close microwave  
+
+LLM Prediction Time (excluding user wait): 6.47 seconds
+Simulator Execution Time: 13.33 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(closed(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(closed(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,kitchencounter),0), occurs(grab(agent1,cutlets,kitchencounter),1), occurs(walktowards(agent1,microwave),2), occurs(putin(agent1,cutlets,microwave),3), occurs(close(agent1,microwave),4)}
+======================================================
+
+==================== 2025-02-26 19:16:00 ====================
+User-entered goal: heated(cutlets)
+User-entered command: heat the cutlets
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place cutlets tvstand  
+Predicted Command: put magazine kitchentable  
+
+LLM Prediction Time (excluding user wait): 5.49 seconds
+Simulator Execution Time: 16.49 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(on(kitchentable, magazine), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(on(kitchentable, magazine), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,bedroom),0), occurs(walktowards(agent1,amplifier),1), occurs(grab(agent1,magazine,amplifier),2), occurs(walk(agent1,kitchen),3), occurs(walktowards(agent1,microwave),4), occurs(switchon(agent1,microwave),5), occurs(walktowards(agent1,kitchentable),6), occurs(put(agent1,magazine,kitchentable),7)}
+======================================================
+
+==================== 2025-02-26 19:18:10 ====================
+User-entered goal: on(kitchentable, cereal)
+User-entered command: on(kitchentable, cereal)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: give user folder  
+Predicted Command: put folder tvstand  
+
+LLM Prediction Time (excluding user wait): 4.87 seconds
+Simulator Execution Time: 12.42 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(on(tvstand, folder), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(on(tvstand, folder), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,bookshelf),1), occurs(grab(agent1,folder,bookshelf),2), occurs(walktowards(agent1,tvstand),3), occurs(put(agent1,folder,tvstand),4)}
+======================================================
+
+==================== 2025-02-26 19:21:19 ====================
+User-entered goal: has(user, folder)
+User-entered command: has(user, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place water glass
+Predicted Command: switchon tablelamp  
+Predicted Command: place water glass  
+Predicted Command: switchon tablelamp
+
+LLM Prediction Time (excluding user wait): 11.01 seconds
+Simulator Execution Time: 12.66 seconds
+Alternative predicate calls: 2
+Alternative object calls: 2
+KG Substitution Log:
+Item substitution: water_glass -> waterglass (success)
+Predicate substitution: turn_on -> switched_on (success)
+Item substitution: water_glass -> waterglass (success)
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,tvstand),0), occurs(grab(agent1,folder,tvstand),1), occurs(walktowards(agent1,user),2), occurs(give(agent1,folder,user),3), occurs(walktowards(agent1,tablelamp),4), occurs(switchon(agent1,tablelamp),5)}
+======================================================
+
+==================== 2025-02-26 22:27:07 ====================
+User-entered goal: on(kitchentable, magazine)
+User-entered command: on(kitchentable, magazine)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: switchon lamp
+Predicted Command: switchon tablelamp  
+Predicted Command: switchon tablelamp  
+Predicted Command: place cereal  
+
+LLM Prediction Time (excluding user wait): 11.67 seconds
+Simulator Execution Time: 0.00 seconds
+Alternative predicate calls: 3
+Alternative object calls: 3
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+Object substitution: lamp -> tablelamp (success)
+Predicate substitution: turn_on -> switched_on (success)
+Predicate substitution: turn_on -> switched_on (success)
+Furniture substitution: cereal -> coffeetable (success)
+Item substitution: table -> apple (success)
+
+Final ASP execution command: 
+
+SPARC Solver Output:
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,amplifier),0), occurs(grab(agent1,magazine,amplifier),1), occurs(walk(agent1,kitchen),2), occurs(walktowards(agent1,kitchentable),3), occurs(put(agent1,magazine,kitchentable),4)}
+======================================================
+
+==================== 2025-02-26 22:38:37 ====================
+User-entered goal: on(tvstand, folder)
+User-entered command: on(tvstand, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: put magazine kitchentable  
+Predicted Command: switchon microwave  
+
+LLM Prediction Time (excluding user wait): 6.27 seconds
+Simulator Execution Time: 24.57 seconds
+Alternative predicate calls: 0
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(open(microwave), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(open(microwave), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,microwave),1), occurs(open(agent1,microwave),2), occurs(walk(agent1,livingroom),3), occurs(walktowards(agent1,bookshelf),4), occurs(grab(agent1,folder,bookshelf),5), occurs(walktowards(agent1,tvstand),6), occurs(put(agent1,folder,tvstand),7)}
+======================================================
+
+==================== 2025-02-26 22:41:01 ====================
+User-entered goal: open(microwave)
+User-entered command: open(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: putin cutlets microwave  
+
+LLM Prediction Time (excluding user wait): 2.85 seconds
+Simulator Execution Time: 15.32 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: put_inside -> inside (success)
+
+Final ASP execution command: goal_2(I) :- holds(inside(microwave, cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(inside(microwave, cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,kitchen),0), occurs(walktowards(agent1,kitchencounter),1), occurs(grab(agent1,cutlets,kitchencounter),2), occurs(walktowards(agent1,microwave),3), occurs(putin(agent1,cutlets,microwave),4)}
+======================================================
+
+==================== 2025-02-26 22:48:32 ====================
+User-entered goal: closed(microwave)
+User-entered command: closed(microwave)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: heat cutlets  
+
+LLM Prediction Time (excluding user wait): 3.03 seconds
+Simulator Execution Time: 5.63 seconds
+Alternative predicate calls: 1
+Alternative object calls: 0
+KG Substitution Log:
+None
+
+Final ASP execution command: goal_2(I) :- holds(heated(cutlets), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(heated(cutlets), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walktowards(agent1,microwave),0), occurs(close(agent1,microwave),1), occurs(switchon(agent1,microwave),2)}
+======================================================
+
+==================== 2025-02-26 22:57:49 ====================
+User-entered goal: has(user, folder)
+User-entered command: has(user, folder)
+
+LLM Prediction Attempts (only predicted commands):
+Predicted Command: place cupcake bookshelf  
+Predicted Command: switchon tablelamp  
+
+LLM Prediction Time (excluding user wait): 7.02 seconds
+Simulator Execution Time: 19.03 seconds
+Alternative predicate calls: 2
+Alternative object calls: 0
+KG Substitution Log:
+Predicate substitution: turn_on -> switched_on (success)
+
+Final ASP execution command: goal_2(I) :- holds(switched_on(tablelamp), I).
+
+SPARC Solver Output:
+Added goal_2 to ASP file: goal_2(I) :- holds(switched_on(tablelamp), I).
+Updated success rule in ASP file: success :- goal_1(I), goal_2(I).
+
+
+OCCURS Output:
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,tablelamp),1), occurs(switchon(agent1,tablelamp),2), occurs(walktowards(agent1,tvstand),3), occurs(grab(agent1,folder,tvstand),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,folder,user),6)}
+======================================================

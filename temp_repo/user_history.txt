@@ -1,0 +1,253 @@
+[
+has(user, folder) | user holds the folder
+open(microwave) | open the microave
+open(fridge) | open the fridge
+inside(fridge, bananas) | store the bananas in the fridge
+closed(fridge) | close the fridge
+turn_on(microwave) | turn on the microwave
+has(user, book) | user holds the book
+turn_on(tablelamp) | turn on the table lamp
+place_on(desk, notes) | plce thenotes on the desk
+has(user, bananas) | give the user banana
+]
+
+[
+open(fridge) | open the fridge
+inside(fridge, bananas) | place bananas on the fridge
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | heat the cutlets
+has(user, cutlets) | user has the cutlets
+open(microwave) | open the microwave
+place_inside(microwave, milk) | place the milk in the microwave
+warm(milk) | heat the milk
+]
+
+[
+turn_on(tablelamp) | turn on the table lamp
+has(user, notes) | user has the notes
+on(desk, book) | place thebook on the desk
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put the cutlets in the microwave
+closed(microwave) | close the microwave
+has(user, cutlets) | give the use the cutlets
+inside(alcohol, fridge) | place the alcohol inside the fridge
+has(user, alcohol) | give the user the alcohol
+turn_off(tablelamp) | turn off the table lamp
+]
+
+[
+inside(bookshelf, poundcake) | place poundcake on the bookshelf
+open(fridge) | open the fridge
+put_inside(fridge, milk) | store the milk in the fridge
+closed(fridge) | close the fridge
+has(user, milk) | user holds the milk
+turn_on(lamp) | turn on the lamp
+has(user,milk) | give user milk
+open(microwave) | open the microwave
+put_inside(microwave, chicken) | place the chicken in the mircrowave
+warm(chicken) | heat the chicken
+]
+
+
+
+[
+inside(bookshelf, cellphone) | place the phone on the bookshelf
+open(fridge) | open the fridge
+put_inside(fridge, cutlets) | put the cutlets in the fridge
+closed(fridge) | close the fridge
+has(user, apple) | give the user an apple
+on(kitchentable, notes) | plce the notes on the table
+on(tvstand, folder) | place the folder on the tvstand
+open(microwave) | opne the microwave
+open(fridge) | open the fridge
+has(user, phone) | user has the phone
+]
+
+
+[
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put the cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | (oddly) heat the water glass
+put_inside(bookshelf, cereal) | place the cereal on the bookshelf
+has(user, cereal) | user takes the cereal
+open(fridge) | open the fridge
+put_inside(fridge,bananas) | opne the microwave
+has(user, chicken) | user holds the chicken
+closed(fridge) | close the fridge
+]
+
+
+[
+turn_on(lamp) | turn on the  lamp
+inside(bookshelf, alcohol) | place alcohol on the bookshelf
+open(microwave) | open the microwave
+put_inside(microwave, chicken) | put chicken in the microwave
+closed(microwave) | close the microwave
+warm(chicken) | heat the chicken
+open(microwave) | open the microwave
+open(fridge) | open the fridge
+put_inside(microwave, milk) | place the milk put_inside the microwave
+warm(milk) | heat the milk
+]
+
+[
+put_inside(bookshelf, cupcake) | place the cupcake on the bookshelf
+open(microwave) | open the microwave
+inside(microwave, cutlets) | put cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | heat the cutlets
+on(kitchentable, notes) | place the notes on the table
+has(user, notes) | user holds the notes
+switched_on(lamp) | turn on the table lamp
+has(user, book) | give the user the book
+switched_off(tablelamp) | switch off the table lamp
+]
+
+[
+open(fridge) | open the fridge
+put_inside(fridge, peach) | place the peach on the desk
+has(user, peach) | user has the peach
+put_inside(fridge, apple) | store the folder in the apple
+closed(fridge) | close the fridge
+inside(bookshelf, waterglass) | place water glass on the bookshelf
+on(tvstand, folder) | place the folder on the table
+on(kitchentable, magazine) | place the water glass on the table
+on(kitchentable, cereal) | place the cereal on the table
+has(user, folder) | give the user the folder
+]
+
+
+[
+inside(bookshelf, cupcake) | place the cupcake on the bookshelf
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | heat the cutlets
+on(kitchentable, magazine) | place the water glass on the table
+on(kitchentable, cereal) | place the cereal on the table
+on(tvstand, folder) | place the folder on the table
+has(user, folder) | give the user the folder
+turn_on(tablelamp) | switch on the table lamp
+]
+
+
+
+
+[
+has(user, book) | give the user the book
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put cutlets in the microwave
+closed(microwave) | close the microwave
+
+warm(cutlets) | heat the cutlets
+open(fridge) | open the fridge
+open(microwave) | open the microwave
+put_inside(microwave, milk) | place the milk in the microwave
+warm(milk) | heat the milk
+has(user, notes) | user holds the notes
+switched_on(lamp) | switch on the lamp
+]
+
+[
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | heat the crackers
+open(microwave) | open the microwave
+put_inside(microwave, milk) | place the milk in the microwave
+heated(milk) | heat the milk
+put_inside(alcohol, fridge) | place the alcohol on the fridge
+has(user, alcohol) | give the user the alcohol
+switched_off(tablelamp) | turn off the table lamp
+]
+
+[
+inside(bookshelf, cake) | place cake on the bookshelf
+open(fridge) | open the fridge
+put_inside(fridge, milk) | store the milk in the fridge
+closed(fridge) | close the fridge
+has(user, milk) | user holds the milk
+switched_on(tablelamp) | turn on the table lamp
+on(desk, chicken) | place the chicken on the desk
+open(microwave) | open the microwave
+put_inside(microwave, chicken) | place the chicken in the mircrowave
+heated(chicken) | heat the chicken
+]
+
+[
+on(desk, chicken) | place the chicken on the desk
+has(user, magazine) | give the user magazine
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put the cutlets in the microwave
+closed(microwave) | close the microwave
+heated(cutlets) | heat the cutlets
+on(tvstand, cutlets) | place the cutlets on the tvstand
+switched_on(tablelamp) | turn on the table lamp
+has(user, cutlets) | give the user the chicken
+switched_off(tablelamp) | turn off the table lamp
+]
+
+[
+open(fridge) | open the fridge
+inside(fridge, milk) | store the milk in the fridge
+closed(fridge) | close the fridge
+put_inside(fridge, cutlets) | put the cutlets in the fridge
+closed(fridge) | close the fridge
+has(user, apple) | give the user an apple
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put the cutlets in the microwave
+closed(microwave) | close the microwave
+warm(cutlets) | heat the water glass
+]
+
+[
+open(microwave) | open the microwave
+put_inside(microwave, cutlets) | put the cutlets in the microwave
+closed(microwave) | close the microwave
+heated(cutlets) | (oddly) heat the water glass
+on(bookshelf, cereal) | place the cereal on the bookshelf
+open(fridge) | open the fridge
+inside(fridge,bananas) | opne the microwave
+has(user, chicken) | user holds the chicken
+closed(fridge) | close the fridge
+has(user, cereal) | user takes the cereal
+]
+
+[
+switched_on(lamp) | turn on the  lamp
+inside(bookshelf, alcohol) | place alcohol on the bookshelf
+open(microwave) | open the microwave
+put_inside(microwave, chicken) | put chicken in the microwave
+closed(microwave) | close the microwave
+heated(chicken) | heat the chicken
+open(microwave) | open the microwave
+open(fridge) | open the fridge
+put_inside(fridge, milk) | store the milk in the fridge
+closed(fridge) | close the fridge
+]
+
+[
+open(fridge) | open the fridge
+put_inside(fridge, peach) | place the peach on the desk
+has(user, peach) | user has the peach
+put_inside(fridge, apple) | store the folder in the apple
+closed(fridge) | close the fridge
+open(microwave) | open the microave
+open(fridge) | open the fridge
+place_inside(fridge, bananas) | store the magazine in the fridge
+closed(fridge) | close the fridge
+has(user, folder) | give the user the folder
+]
+
+=== New Session ===
+on(tvstand, folder) | on(tvstand, folder)
+switchon microwave | PredictedGoalExecuted
+open(microwave) | open(microwave)
+putin cutlets microwave | PredictedGoalExecuted
+closed(microwave) | closed(microwave)
+heat cutlets | PredictedGoalExecuted
+has(user, folder) | has(user, folder)
+switchon tablelamp | PredictedGoalExecuted

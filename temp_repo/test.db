@@ -1,0 +1,44 @@
+CREATE DATABASE tracking_db;
+USE tracking_db;
+CREATE TABLE last_holds (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(255),
+    furniture_location VARCHAR(255),
+    user_location VARCHAR(255),
+    location VARCHAR(255),
+    agent_location VARCHAR(255),
+    item_status VARCHAR(255),
+    object_status VARCHAR(255),
+    goal VARCHAR(255),  
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+INSERT INTO last_holds (type, furniture_location, goal)
+VALUES ('furniture_location', 'table2, kitchen', 'retrieve_book');
+
+INSERT INTO last_holds (type, location, goal)
+VALUES ('location', 'tea, kitchen, table2', 'retrieve_tea');
+
+INSERT INTO last_holds (type, agent_location, goal)
+VALUES ('in(agent1, living_room)', 'living_room', 'retrieve_tea');
+
+INSERT INTO last_holds (type, object_status)
+VALUES ('locked(chest_of_drawers)', 'locked');
+
+CREATE TABLE goals (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    goal_description VARCHAR(255),
+    goal_status VARCHAR(50),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO goals (goal_description, goal_status)
+VALUES ('retrieve_book', 'in_progress');
+
+INSERT INTO goals (goal_description, goal_status)
+VALUES ('retrieve_tea', 'in_progress');
+
+UPDATE goals
+SET goal_status = 'completed'
+WHERE goal_description = 'retrieve_book';

@@ -1,0 +1,1 @@
+{show_changed_holds(in(agent1,kitchen)), show_changed_holds(location(folder,livingroom,tvstand)), show_changed_holds(on(tvstand,folder)), show_changed_holds(has(user,folder)), show_changed_holds(in(agent1,livingroom))}

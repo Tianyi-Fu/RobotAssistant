@@ -1,0 +1,12 @@
+openai>=1.0.0
+clingo~=5.7.1
+scikit-learn~=1.2.2
+transformers~=4.41.0
+torch~=2.3.0
+numpy~=1.26.4
+spacy
+en_core_web_sm
+rdflib
+nltk
+inputimeout
+virtualhome>=2.3.0

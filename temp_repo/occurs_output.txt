@@ -1,0 +1,1 @@
+{occurs(walk(agent1,livingroom),0), occurs(walktowards(agent1,tablelamp),1), occurs(switchon(agent1,tablelamp),2), occurs(walktowards(agent1,tvstand),3), occurs(grab(agent1,folder,tvstand),4), occurs(walktowards(agent1,user),5), occurs(give(agent1,folder,user),6)}

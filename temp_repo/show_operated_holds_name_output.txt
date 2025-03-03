@@ -1,0 +1,1 @@
+{show_operated_holds_name(folder), show_operated_holds_name(tablelamp)}
