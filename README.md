@@ -33,15 +33,12 @@ Open the configuration file:
 cd code/config
 ```
 
-Edit `config.py` to update the necessary paths and API keys. For example, set:
+Edit `config.py` to update the UnitySimulator executable paths and API keys. For example, set:
 
 ```python
 OPENAI_API_KEY = "Replace with your OpenAI API key"
-UNITY_EXEC_PATH = "Path/To/virtualhome/virtualhome/simulation/macos_exec.v2.3.0.app"
+UNITY_EXEC_PATH = "Path/To/virtualhome/virtualhome/simulation/v2.3.0.app"
 ```
-
-Also, update any other paths (KG files, ASP file, history file, etc.) as required.
-
 ---
 
 ### 3. Run the Script
