@@ -1,7 +1,7 @@
 # Robot Assistant Framework
-![Copy of Human command (2)](https://github.com/user-attachments/assets/6504cfd8-b37e-4aa4-b878-422c8dd5880f)
+![Copy of Human command (6)](https://github.com/user-attachments/assets/af0456eb-c911-4ac6-b288-31d1c0896f1e)
+![Uploading framework_1-ezgif.com-optipng.png…]()
 
-![framework_1](https://github.com/user-attachments/assets/4a52aef4-09c7-4a90-a7fd-488dd0aca204)
 
 ---
 
