@@ -1,0 +1,600 @@
+
+--------- Experiment 1, Scenario Pair 4 [2025-03-28 23:32:56] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 5, Scenario Pair 4 [2025-03-28 23:35:27] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 5, Scenario Pair 5 [2025-03-28 23:35:29] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 6, Scenario Pair 4 [2025-03-28 23:35:50] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 9, Scenario Pair 3 [2025-03-28 23:37:28] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 10, Scenario Pair 1 [2025-03-28 23:37:51] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine> <kitchentable>]
+---------------------------------------------------------------------------
+
+--------- Experiment 11, Scenario Pair 4 [2025-03-28 23:38:50] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 14, Scenario Pair 3 [2025-03-28 23:40:38] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 15, Scenario Pair 4 [2025-03-28 23:41:24] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 16, Scenario Pair 4 [2025-03-28 23:41:55] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 18, Scenario Pair 1 [2025-03-28 23:42:40] ---------
+Predicted command: grab notes
+Predicted Action sequence: [[walktoward] <kitchentable>, [grab] <notes>, [walktoward] <user>, [give] <notes> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 20, Scenario Pair 4 [2025-03-28 23:44:16] ---------
+Predicted command: switchedon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 21, Scenario Pair 4 [2025-03-28 23:44:45] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 24, Scenario Pair 3 [2025-03-28 23:46:29] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 25, Scenario Pair 1 [2025-03-28 23:46:53] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine>]
+---------------------------------------------------------------------------
+
+--------- Experiment 25, Scenario Pair 4 [2025-03-28 23:47:11] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 26, Scenario Pair 4 [2025-03-28 23:47:42] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 28, Scenario Pair 1 [2025-03-28 23:48:31] ---------
+Predicted command: grab notes
+Predicted Action sequence: [[grab] <notes>]
+---------------------------------------------------------------------------
+
+--------- Experiment 29, Scenario Pair 4 [2025-03-28 23:49:32] ---------
+Predicted command: open microwave
+Predicted Action sequence: [[walktowards] <microwave>, [open] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 29, Scenario Pair 5 [2025-03-28 23:49:35] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 30, Scenario Pair 4 [2025-03-28 23:49:56] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 31, Scenario Pair 4 [2025-03-28 23:50:27] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 34, Scenario Pair 3 [2025-03-28 23:51:58] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 35, Scenario Pair 1 [2025-03-28 23:52:17] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine>]
+---------------------------------------------------------------------------
+
+--------- Experiment 36, Scenario Pair 4 [2025-03-28 23:53:06] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 40, Scenario Pair 1 [2025-03-28 23:55:15] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine> <kitchentable>, [give] <magazine> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 40, Scenario Pair 4 [2025-03-28 23:55:38] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 41, Scenario Pair 4 [2025-03-28 23:56:10] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 45, Scenario Pair 4 [2025-03-28 23:58:35] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 46, Scenario Pair 4 [2025-03-28 23:59:03] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 48, Scenario Pair 5 [2025-03-29 00:00:15] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 49, Scenario Pair 3 [2025-03-29 00:00:33] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 49, Scenario Pair 5 [2025-03-29 00:00:45] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 1 [2025-03-29 00:00:47] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine>, [put] <magazine> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 4 [2025-03-29 00:01:07] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 5 [2025-03-29 00:01:09] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--------- Experiment 2, Scenario Pair 3 [2025-03-29 00:13:14] ---------
+Predicted command: grab book
+Predicted Action sequence: [grab book]
+---------------------------------------------------------------------------
+
+--------- Experiment 5, Scenario Pair 4 [2025-03-29 00:15:05] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 6, Scenario Pair 2 [2025-03-29 00:15:26] ---------
+Predicted command: close fridge
+Predicted Action sequence: [[open] <fridge>, [putin] <cutlets> <fridge>, [close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 7, Scenario Pair 3 [2025-03-29 00:16:00] ---------
+Predicted command: grab book
+Predicted Action sequence: [grab book]
+---------------------------------------------------------------------------
+
+--------- Experiment 10, Scenario Pair 4 [2025-03-29 00:17:49] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 15, Scenario Pair 4 [2025-03-29 00:20:55] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[put] <notes> <desk>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 17, Scenario Pair 3 [2025-03-29 00:22:04] ---------
+Predicted command: grab book
+Predicted Action sequence: [[walktowards] <bookshelf>, [grab] <book>]
+---------------------------------------------------------------------------
+
+--------- Experiment 19, Scenario Pair 5 [2025-03-29 00:23:25] ---------
+Predicted command: grab folder
+Predicted Action sequence: [[grab] <folder>, [put] <folder> <table>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 20, Scenario Pair 4 [2025-03-29 00:23:49] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 22, Scenario Pair 5 [2025-03-29 00:25:02] ---------
+Predicted command: close fridge
+Predicted Action sequence: [[close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 24, Scenario Pair 5 [2025-03-29 00:26:07] ---------
+Predicted command: grab folder
+Predicted Action sequence: [[grab] <folder>]
+---------------------------------------------------------------------------
+
+--------- Experiment 25, Scenario Pair 2 [2025-03-29 00:26:19] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[put] cutlets <microwave>, [close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 25, Scenario Pair 4 [2025-03-29 00:26:31] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 27, Scenario Pair 3 [2025-03-29 00:27:26] ---------
+Predicted command: grab book
+Predicted Action sequence: [[open] <bookshelf>, [grab] <book>, [close] <bookshelf>]
+---------------------------------------------------------------------------
+
+--------- Experiment 34, Scenario Pair 2 [2025-03-29 00:31:05] ---------
+Predicted command: put apple fridge
+Predicted Action sequence: [[grab] <apple>, [open] <fridge>, [putin] <apple> <fridge>, [close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 35, Scenario Pair 4 [2025-03-29 00:31:48] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 35, Scenario Pair 5 [2025-03-29 00:31:52] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [switchoff tablelamp]
+---------------------------------------------------------------------------
+
+--------- Experiment 36, Scenario Pair 2 [2025-03-29 00:32:02] ---------
+Predicted command: close fridge
+Predicted Action sequence: [[close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 39, Scenario Pair 5 [2025-03-29 00:33:56] ---------
+Predicted command: grab folder
+Predicted Action sequence: [[grab] <folder>]
+---------------------------------------------------------------------------
+
+--------- Experiment 41, Scenario Pair 2 [2025-03-29 00:34:42] ---------
+Predicted command: close fridge
+Predicted Action sequence: [[close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 43, Scenario Pair 5 [2025-03-29 00:36:27] ---------
+Predicted command: heat milk
+Predicted Action sequence: [[open] <microwave>, [heat] <milk>]
+---------------------------------------------------------------------------
+
+--------- Experiment 45, Scenario Pair 4 [2025-03-29 00:37:33] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 45, Scenario Pair 5 [2025-03-29 00:37:37] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 49, Scenario Pair 5 [2025-03-29 00:39:46] ---------
+Predicted command: give folder user
+Predicted Action sequence: [[grab] <folder>, [give] <folder> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 2 [2025-03-29 00:40:03] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[open] <microwave>, [putin] <cutlets> <microwave>, [close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 4 [2025-03-29 00:40:11] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [switchon tablelamp]
+---------------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--------- Experiment 1, Scenario Pair 5 [2025-03-29 00:51:10] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 2, Scenario Pair 5 [2025-03-29 00:51:39] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 3, Scenario Pair 5 [2025-03-29 00:52:09] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 6, Scenario Pair 5 [2025-03-29 00:53:49] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 7, Scenario Pair 5 [2025-03-29 00:54:22] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 11, Scenario Pair 5 [2025-03-29 00:56:32] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 12, Scenario Pair 5 [2025-03-29 00:57:00] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 16, Scenario Pair 5 [2025-03-29 00:59:16] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 17, Scenario Pair 5 [2025-03-29 00:59:46] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 18, Scenario Pair 5 [2025-03-29 01:00:13] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 21, Scenario Pair 2 [2025-03-29 01:01:38] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[open] <microwave>, [put] <cutlets> <microwave>, [close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 21, Scenario Pair 4 [2025-03-29 01:01:53] ---------
+Predicted command: put folder tvstand
+Predicted Action sequence: [[grab] <folder>, [put] <folder> <tvstand>]
+---------------------------------------------------------------------------
+
+--------- Experiment 21, Scenario Pair 5 [2025-03-29 01:01:55] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 22, Scenario Pair 5 [2025-03-29 01:02:22] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 23, Scenario Pair 5 [2025-03-29 01:02:56] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 24, Scenario Pair 5 [2025-03-29 01:03:27] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 26, Scenario Pair 5 [2025-03-29 01:04:31] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[grab] <switch>, [walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 27, Scenario Pair 5 [2025-03-29 01:04:59] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 28, Scenario Pair 5 [2025-03-29 01:05:28] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [switchon tablelamp]
+---------------------------------------------------------------------------
+
+--------- Experiment 31, Scenario Pair 5 [2025-03-29 01:07:14] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 32, Scenario Pair 5 [2025-03-29 01:07:45] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [switchon tablelamp]
+---------------------------------------------------------------------------
+
+--------- Experiment 34, Scenario Pair 5 [2025-03-29 01:08:51] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <lamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 35, Scenario Pair 3 [2025-03-29 01:09:10] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 36, Scenario Pair 5 [2025-03-29 01:09:49] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 37, Scenario Pair 5 [2025-03-29 01:10:22] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 38, Scenario Pair 5 [2025-03-29 01:11:05] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 41, Scenario Pair 5 [2025-03-29 01:13:21] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 42, Scenario Pair 5 [2025-03-29 01:13:48] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 46, Scenario Pair 2 [2025-03-29 01:15:48] ---------
+Predicted command: close microwave
+Predicted Action sequence: [[close] <microwave>]
+---------------------------------------------------------------------------
+
+--------- Experiment 46, Scenario Pair 5 [2025-03-29 01:16:04] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 47, Scenario Pair 5 [2025-03-29 01:16:38] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 48, Scenario Pair 5 [2025-03-29 01:17:12] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 50, Scenario Pair 3 [2025-03-29 01:18:01] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--------- Experiment 1, Scenario Pair 1 [2025-03-29 01:24:36] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine>]
+---------------------------------------------------------------------------
+
+--------- Experiment 1, Scenario Pair 4 [2025-03-29 01:24:52] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 2, Scenario Pair 3 [2025-03-29 01:25:19] ---------
+Predicted command: grab apple
+Predicted Action sequence: [[open] <fridge>, [grab] <apple>]
+---------------------------------------------------------------------------
+
+--------- Experiment 3, Scenario Pair 4 [2025-03-29 01:26:27] ---------
+Predicted command: grab chicken
+Predicted Action sequence: [[open] <microwave>, [grab] <chicken>, [give] <chicken> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 5, Scenario Pair 5 [2025-03-29 01:27:39] ---------
+Predicted command: grab folder
+Predicted Action sequence: [[grab] <folder> <tvstand>]
+---------------------------------------------------------------------------
+
+--------- Experiment 6, Scenario Pair 4 [2025-03-29 01:28:08] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 11, Scenario Pair 1 [2025-03-29 01:30:35] ---------
+Predicted command: grab magazine
+Predicted Action sequence: [[grab] <magazine>]
+---------------------------------------------------------------------------
+
+--------- Experiment 11, Scenario Pair 4 [2025-03-29 01:30:57] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 12, Scenario Pair 3 [2025-03-29 01:31:19] ---------
+Predicted command: grab apple
+Predicted Action sequence: [[open] <fridge>, [grab] <apple>, [close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 15, Scenario Pair 2 [2025-03-29 01:32:58] ---------
+Predicted command: put apple fridge
+Predicted Action sequence: [[open] <fridge>, [putin] <apple> <fridge>, [close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 16, Scenario Pair 4 [2025-03-29 01:33:40] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 18, Scenario Pair 4 [2025-03-29 01:34:50] ---------
+Predicted command: grab chicken
+Predicted Action sequence: [[grab] <chicken>]
+---------------------------------------------------------------------------
+
+--------- Experiment 21, Scenario Pair 4 [2025-03-29 01:36:29] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 22, Scenario Pair 3 [2025-03-29 01:36:56] ---------
+Predicted command: grab apple
+Predicted Action sequence: [[open] <fridge>, [grab] <apple>, [close] <fridge>, [give] <apple> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 24, Scenario Pair 5 [2025-03-29 01:38:15] ---------
+Predicted command: close fridge
+Predicted Action sequence: [[close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 26, Scenario Pair 4 [2025-03-29 01:39:13] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 26, Scenario Pair 5 [2025-03-29 01:39:20] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 27, Scenario Pair 3 [2025-03-29 01:39:39] ---------
+Predicted command: give user apple
+Predicted Action sequence: [[grab] <apple>, [walktowards] <user>, [give] <apple> <user>]
+---------------------------------------------------------------------------
+
+--------- Experiment 30, Scenario Pair 5 [2025-03-29 01:41:41] ---------
+Predicted command: grab folder
+Predicted Action sequence: [[grab] <folder>]
+---------------------------------------------------------------------------
+
+--------- Experiment 31, Scenario Pair 4 [2025-03-29 01:42:08] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 31, Scenario Pair 5 [2025-03-29 01:42:21] ---------
+Predicted command: switchoff tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchoff] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 35, Scenario Pair 2 [2025-03-29 01:44:03] ---------
+Predicted command: put apple fridge
+Predicted Action sequence: [[grab] <apple>, [open] <fridge>, [putin] <apple> <fridge>, [close] <fridge>]
+---------------------------------------------------------------------------
+
+--------- Experiment 36, Scenario Pair 4 [2025-03-29 01:44:46] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 41, Scenario Pair 4 [2025-03-29 01:47:41] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
+
+--------- Experiment 46, Scenario Pair 4 [2025-03-29 01:50:39] ---------
+Predicted command: switchon tablelamp
+Predicted Action sequence: [[walktowards] <tablelamp>, [switchon] <tablelamp>]
+---------------------------------------------------------------------------
