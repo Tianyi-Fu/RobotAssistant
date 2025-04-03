@@ -5,7 +5,11 @@
 
 
 ---
+## Environment Requirements
 
+- **Python:** 3.8 or higher (tested with Python 3.8.20)
+- **Java:** 11 or higher
+  
 ## How to Run the Frameworks
 
 ### 1. Install VirtualHome 2.3.0
